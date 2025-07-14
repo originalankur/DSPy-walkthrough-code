@@ -1,3 +1,46 @@
+## P-F-A-T Prompting Framework
+
+Conventional wisdom on good manual prompting as of writing this article follow the **P-F-A-T** structure:
+
+- **Persona/Role**: Define the technical expertise and mindset.
+  
+  *“You are a senior backend engineer with expertise in Django and PostgreSQL.”*
+
+- **Format**: Specify how you want the output delivered.
+
+  *“Return a code snippet in Python and include inline comments explaining each step.”*
+
+- **Audience & Tone**: Tailor the explanation level and style.
+
+  *“Explain this middleware logic to a junior developer in a clear and supportive tone.”*
+
+- **Task & Constraints**: Define the task and set limits.
+
+  *“Refactor this function to improve readability and performance. Keep it under 30 lines.”*
+
+#### Full Prompt Example:
+
+> You are a senior software engineer reviewing a Django view function. Refactor the code to follow best practices and improve readability. Return only the refactored code in a properly formatted code block. Avoid making database schema changes.
+
+
+## Manual Prompting vs DSPy Optimized Prompting
+
+```
++--------------------------------+      +--------------------------------+
+|       MANUAL PROMPTING         |      |     DSPy OPTIMIZED PROMPTING   |
++--------------------------------+      +--------------------------------+
+|                                |      |                                |
+|   [+] Full Control             |      |   [+] Automation & Efficiency  |
+|   [+] No Framework Needed      |      |   [+] Higher Performance       |
+|                                |      |   [+] Scalability              |
+|   [-] Time-Consuming           |      |   [+] Self-Improving           |
+|   [-] Relies on Intuition      |      |   [+] Maintainability          |
+|   [-] Hard to Scale/Adapt      |      |                                |
+|   [-] Inconsistent Results     |      |   [-] Learning Curve           |
+|                                |      |   [-] Less Direct Control      |
++--------------------------------+      +--------------------------------+
+```
+
 ## Appendix: Glossary of Terms
 This glossary provides definitions for key terms and concepts mentioned in the tutorial. The terms are listed in alphabetical order.
 
